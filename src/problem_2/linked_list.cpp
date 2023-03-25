@@ -29,6 +29,15 @@ void LinkedList<T>::push_back(const T &value) {
     // create new node, iterate the linked list until you are at the end
     auto node = new ListNode<T>(value);
     ListNode<T> *curr = head;
+
+    // if list is empty, set head to new node and return
+    if (head == nullptr) {
+        head = node;
+        num_of_element++;
+        return;
+    }
+
+
     while (curr->next != nullptr) {
         curr = curr->next;
     }
@@ -172,6 +181,8 @@ void LinkedList<T>::merge(const List<T> &ot) {
     // update this
     this->head  = merged_list->head;
     this->num_of_element = merged_list->num_of_element;
+
+//    delete merged_list;
 }
 
 template<class T>
