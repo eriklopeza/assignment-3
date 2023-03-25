@@ -21,13 +21,19 @@ public:
         /*
          * TODO: homework
          */
+
+        // mercy rule formula from test case: calculate_late_fees_base_rule
+        bool has_mercy = (this->get_inventory_id() % 13 == 0);
+        return has_mercy;
     }
 
     bool operator==(const StoreMediaInterface &other_media) const {
         /*
          * TODO: homework
          */
-        return false;
+
+        // A movie equals another movie only when their id are the same. Same rule for books being equal.
+        return other_media.inventory_id == this->inventory_id;
     };
 
     bool operator!=(const StoreMediaInterface &other_media) const {

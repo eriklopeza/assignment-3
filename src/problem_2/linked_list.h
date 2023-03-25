@@ -37,6 +37,14 @@ public:
         /*
          * TODO: homework
          */
+
+        // iterate the length of the list and copy each node over
+        ListNode<T> *p = other_list.head->next;
+        while (p != nullptr) {
+            push_back(p->val);
+            p = p->next;
+        }
+
     }
 
     // destructor

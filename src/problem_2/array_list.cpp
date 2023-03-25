@@ -118,4 +118,15 @@ void ArrayList<T>::reverse_iterative() {
     /*
      * TODO: homework
      */
+
+    // reverse the order with help of our swap function
+    // using left and right as array indexes
+    // loop up to half of the size of array since our indexes will meet in the middle when done
+    int left = 0;
+    int right = size() - 1;
+    while (left < right) {
+        this->swap(left, right);
+        left++;
+        right--;
+    }
 }
