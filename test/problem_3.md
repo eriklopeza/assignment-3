@@ -18,8 +18,8 @@ patterns and areas for improvement.
 
 Video 2:
 
-The video challenges the conventional wisdom that Test-Driven Development (TDD) is an essential part of software development. In summary, the video challenges the 
-conventional view that TDD is an essential part of software development, and proposes a more pragmatic approach to testing. Cheney emphasizes the importance of understanding 
-the requirements of the program and writing tests that provide value to both the developer and end-users. This approach can be particularly relevant to junior developers who 
+The video challenges the conventional wisdom that Test-Driven Development (TDD) is an essential part of software development and he did it in a very entertaining manner. In summary, 
+the video challenges the conventional view that TDD is an essential part of software development, and proposes a more pragmatic approach to testing. Cheney emphasizes the importance 
+of understanding the requirements of the program and writing tests that provide value to both the developer and end-users. This approach can be particularly relevant to junior developers who 
 are still learning to write high-quality code and may feel overwhelmed by the rigidity of TDD. By focusing on the requirements of the software and writing tests that provide 
 value, junior developers can develop a more practical and effective approach to testing that balances the benefits of TDD with the need for speed and efficiency in software development.
